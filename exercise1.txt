@@ -1,0 +1,24 @@
+ALGORITHME calculatriceSimple
+DEBUT
+    // Declaration
+    VARIABLE nbrUn,nbrDeux : ENTIER
+    VARIABLE operateur : CHAINE
+
+    //Entrée
+    ECRIRE("Entrez un premier nombre : ", nbrUn)
+    LIRE(nbrUn)
+
+    ECRIRE("Entrez un deuxième nombre : "; nbrDeux)
+    LIRE(nbrDeux)
+
+    ECRIRE("Entrez un opérateur : ", operateur)
+    LIRE(operateur)
+
+    //Traitement et sortie
+    SI operateur = "+"
+        ECRIRE("Voici le résultat de votre calcul : ", nbrUn+nbrDeux)
+    SINON SI operateur = "-"
+    ....
+FIN
+
+
